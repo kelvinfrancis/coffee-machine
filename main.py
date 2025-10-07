@@ -89,7 +89,3 @@ while is_on:
                 if is_transaction_successful(payment, drink["cost"]):
                     make_coffee(user_choice, drink["ingredients"])
 
-    #TODO: 4. Check resources sufficient?
-    #TODO: 5. Process coins.
-    #TODO: 6. Check transaction successful?
-    #TODO: 7. Make Coffee.
